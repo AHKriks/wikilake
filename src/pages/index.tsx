@@ -19,6 +19,7 @@ const categories: Category[] = [
   {emoji: '🎭', title: '社团', description: '学生社团与组织的信息', link: '/clubs/'},
   {emoji: '🎓', title: '书院', description: '各书院的基本信息与资源', link: '/colleges/'},
   {emoji: '📚', title: '课程', description: '课程资料与学习经验', link: '/courses/'},
+  {emoji: '🗂️', title: '选课与培养方案', description: '选课攻略与各年级培养方案', link: '/curriculum/'},
   {emoji: '🍜', title: '餐饮', description: '食堂菜品与餐饮攻略', link: '/foods/'},
   {emoji: '🧭', title: '指南', description: '入学、生活与学习指南', link: '/guides/'},
   {emoji: '😂', title: '梗', description: '校园梗与流行文化', link: '/memes/'},
