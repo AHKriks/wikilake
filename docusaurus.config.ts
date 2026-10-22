@@ -9,6 +9,15 @@ const config: Config = {
   tagline: '',
   favicon: 'img/favicon.ico',
 
+  // Umami 统计，注入每个页面的 <head>
+  scripts: [
+    {
+      src: 'https://umami.worldhim.cc/script.js',
+      'data-website-id': '9d786d09-2af6-404c-86a0-5c4aa9e5e2af',
+      defer: true,
+    },
+  ],
+
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
